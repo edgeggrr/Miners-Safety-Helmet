@@ -1,8 +1,5 @@
 # Miners-Safety-Helmet
 
-==============================================================================
-                            MINER'S SAFETY HELMET USING IOT
-==============================================================================
 
 An IoT-based wearable safety helmet designed to enhance underground miner safety
 through multi-sensor hazard detection, real-time audio-visual alerts, and cloud 
