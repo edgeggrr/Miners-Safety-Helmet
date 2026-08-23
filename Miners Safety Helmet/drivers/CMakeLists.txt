@@ -1,0 +1,16 @@
+idf_component_register(
+    SRCS
+        "buttons.c"
+        "buzzer.c"
+        "dht.c"
+        "hcsro4.c"
+        "mpu6050.c"
+        "mq2.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        esp_timer
+        esp_adc
+        log
+)
