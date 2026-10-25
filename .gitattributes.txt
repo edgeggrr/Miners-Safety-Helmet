@@ -1,0 +1,12 @@
+# Denote all files as text by default, letting git handle normalization
+* text=auto
+
+# Prevent Git from touching CAD/binary STEP files
+*.step -text
+*.STP -text
+
+# Ensure KiCad project files are handled properly
+*.kicad_pro text
+*.kicad_prl text
+*.kicad_sch text
+*.kicad_pcb text
