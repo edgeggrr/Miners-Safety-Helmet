@@ -166,30 +166,6 @@ Cloud Upload:
   delivery to ThingSpeak.
 
 ------------------------------------------------------------------------------
-10. FUTURE ENHANCEMENTS
-------------------------------------------------------------------------------
-- Edge AI / TinyML: On-device gesture and fall-pattern recognition.
-- Hybrid Long-Range Connectivity: LoRaWAN / GSM fallback for deep underground 
-  tunnels without Wi-Fi.
-- Predictive Analytics: Machine learning algorithms for environmental trend analysis.
-- Advanced Web Dashboard: Shift-wise safety analytics and real-time GPS tracking.
-
-------------------------------------------------------------------------------
-11. PROJECT TEAM & ACKNOWLEDGMENTS
-------------------------------------------------------------------------------
-Project Members:
-- Rohit Amrut Patki
-- Vaibhav Hanumant Waghmode
-- Omkar Pandurang Barakale
-
-Project Guide:
-- Prof. Mrs. Meena Karad
-
-Department & Institution:
-- Department of Electronics and Telecommunication Engineering (E&TC)
-- D. Y. Patil College of Engineering, Akurdi, Pune (Academic Year 2025–2026)
-
-------------------------------------------------------------------------------
 12. REFERENCES
 ------------------------------------------------------------------------------
 - IEEE Xplore: "IoT-Enabled Safety Helmet for Coal Miners" 
