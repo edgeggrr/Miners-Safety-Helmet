@@ -19,17 +19,12 @@
 #include "hcsr04.h"
 #include "buzzer.h"
 #include "buttons.h"
+#include "secrets.h"
 
 static const char *TAG = "SAFETY_MONITOR";
 
-/* ------------------------- WiFi / ThingSpeak ------------------------- */
-#define WIFI_SSID           "YOUR_WIFI_SSID"
-#define WIFI_PASSWORD       "YOUR_WIFI_PASSWORD"
-#define THINGSPEAK_API_KEY  "YOUR_THINGSPEAK_API_KEY"
-#define THINGSPEAK_URL      "http://api.thingspeak.com/update"
 
-/* ThingSpeak free tier rejects updates more often than every 15 s.
- * Main loop runs at ~1 Hz, so upload every 15th iteration. */
+/* Main loop runs at ~1 Hz, so upload every 15th iteration. */
 #define UPLOAD_EVERY_N_LOOPS 15
 
 static EventGroupHandle_t s_wifi_event_group;

@@ -4180,6 +4180,18 @@
 		)
 		(uuid "d42d0415-db33-42d2-8791-0347ed79e519")
 	)
+	(text "LED\nFlasher"
+		(exclude_from_sim no)
+		(at 97.282 173.228 0)
+		(effects
+			(font
+				(face "Monotype Corsiva")
+				(size 5 5)
+				(bold yes)
+			)
+		)
+		(uuid "e6125192-aab3-4f17-9b3b-b978961de9e3")
+	)
 	(junction
 		(at 355.6 87.63)
 		(diameter 0)
@@ -4507,6 +4519,16 @@
 			(type default)
 		)
 		(uuid "0af715ce-1b1b-4850-8515-89e1f61dd625")
+	)
+	(wire
+		(pts
+			(xy 95.25 138.43) (xy 95.25 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb71d28-0cf7-43b6-8d35-ef7042bfc949")
 	)
 	(wire
 		(pts
@@ -4937,6 +4959,16 @@
 			(type default)
 		)
 		(uuid "615e43a9-4cc8-4212-870c-05f3e0f89a6a")
+	)
+	(wire
+		(pts
+			(xy 97.79 138.43) (xy 97.79 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636278cf-519d-4855-aa96-258f3afd9e53")
 	)
 	(wire
 		(pts
@@ -5490,6 +5522,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 147.32) (xy 104.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a06dda-ce53-4f60-9959-d02f99f72338")
+	)
+	(wire
+		(pts
 			(xy 207.01 69.85) (xy 207.01 87.63)
 		)
 		(stroke
@@ -5827,6 +5869,16 @@
 			(type default)
 		)
 		(uuid "f60d110a-9114-4714-9d42-0f9ea9bfc496")
+	)
+	(wire
+		(pts
+			(xy 222.25 105.41) (xy 236.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6582581-59dc-4e74-91c8-31d71e50dcbc")
 	)
 	(wire
 		(pts
@@ -6278,6 +6330,16 @@
 		)
 		(uuid "e0aa90b6-501b-4db3-80df-8c3b7df00908")
 	)
+	(label "LEDs"
+		(at 104.14 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2b034a1-ce03-47de-876b-bf583622cf6b")
+	)
 	(label "EN"
 		(at 317.5 204.47 0)
 		(effects
@@ -6307,6 +6369,16 @@
 			(justify left bottom)
 		)
 		(uuid "f7652521-86ab-4aea-9601-67ffffa7a9a3")
+	)
+	(label "LEDs"
+		(at 236.22 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f84d1357-053f-40ae-bf8a-8b50c52a4d8e")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -6381,6 +6453,88 @@
 			(project "PCB"
 				(path "/36f2856f-023e-44e6-a4e8-2ad009c18eda"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 95.25 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ce18a8-6197-401c-8a68-4e2668c4a921")
+		(property "Reference" "J4"
+			(at 99.06 132.7149 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LEDs"
+			(at 99.06 135.2549 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 95.25 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 95.25 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "01221a7c-f47f-4761-bcb1-5100d71634ba")
+		)
+		(pin "1"
+			(uuid "41ef8ea3-3345-4c95-8001-c912a265ab25")
+		)
+		(instances
+			(project "PCB"
+				(path "/36f2856f-023e-44e6-a4e8-2ad009c18eda"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8745,6 +8899,84 @@
 			(project "PCB"
 				(path "/36f2856f-023e-44e6-a4e8-2ad009c18eda"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c5dd387-2d01-4118-bd2d-602bcab9ba70")
+		(property "Reference" "#PWR019"
+			(at 95.25 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b898501-4274-4ed8-bf84-5f74fd5c5114")
+		)
+		(instances
+			(project "PCB"
+				(path "/36f2856f-023e-44e6-a4e8-2ad009c18eda"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
