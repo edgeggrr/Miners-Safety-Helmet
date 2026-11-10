@@ -5,6 +5,8 @@ An IoT-based wearable safety helmet designed to enhance underground miner safety
 through multi-sensor hazard detection, real-time audio-visual alerts, and cloud 
 telemetry via ThingSpeak.
 
+![Alt text for the image](./images/PCB_RGB.png)
+
 ------------------------------------------------------------------------------
 TABLE OF CONTENTS
 ------------------------------------------------------------------------------
@@ -162,30 +164,6 @@ Cloud Upload:
 - Distance Validation: Accurate proximity alerts up to 30 cm clearance limit.
 - Cloud Integration: Continuous 24-hour test verified 99.8% successful payload 
   delivery to ThingSpeak.
-
-------------------------------------------------------------------------------
-10. FUTURE ENHANCEMENTS
-------------------------------------------------------------------------------
-- Edge AI / TinyML: On-device gesture and fall-pattern recognition.
-- Hybrid Long-Range Connectivity: LoRaWAN / GSM fallback for deep underground 
-  tunnels without Wi-Fi.
-- Predictive Analytics: Machine learning algorithms for environmental trend analysis.
-- Advanced Web Dashboard: Shift-wise safety analytics and real-time GPS tracking.
-
-------------------------------------------------------------------------------
-11. PROJECT TEAM & ACKNOWLEDGMENTS
-------------------------------------------------------------------------------
-Project Members:
-- Rohit Amrut Patki
-- Vaibhav Hanumant Waghmode
-- Omkar Pandurang Barakale
-
-Project Guide:
-- Prof. Mrs. Meena Karad
-
-Department & Institution:
-- Department of Electronics and Telecommunication Engineering (E&TC)
-- D. Y. Patil College of Engineering, Akurdi, Pune (Academic Year 2025–2026)
 
 ------------------------------------------------------------------------------
 12. REFERENCES
