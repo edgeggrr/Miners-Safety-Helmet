@@ -4,7 +4,9 @@
 An IoT-based wearable safety helmet designed to enhance underground miner safety
 through multi-sensor hazard detection, real-time audio-visual alerts, and cloud 
 telemetry via ThingSpeak.
-![Prototype PoC](./images/PROJECT.jepg)
+
+
+![Prototype PoC](./images/PROJECT.jpeg)
 ![PCB Design](./images/PCB_RGB.png)
 ------------------------------------------------------------------------------
 TABLE OF CONTENTS
